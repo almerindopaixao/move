@@ -4,6 +4,7 @@ import
         Profile, 
         CompletedChallenges, 
         Countdown,
+        ChallengeBox,
       } from '../components';
 
 import styles from '../styles/pages/Home.module.scss';
@@ -23,7 +24,9 @@ function App() {
           <CompletedChallenges />
           <Countdown />
         </div>
-        <div></div>
+        <div>
+          <ChallengeBox />
+        </div>
       </section>
     </div>
   );
