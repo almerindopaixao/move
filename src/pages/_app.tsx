@@ -1,11 +1,11 @@
-import { ChallengesProvider } from '../contexts/ChallengesContext';
+import { ChallengesProvider } from '../contexts';
 
 import '../styles/global.scss';
 
 function MyApp({ Component, pageProps }) {
   return (
     <ChallengesProvider>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
     </ChallengesProvider>
   )
 }
